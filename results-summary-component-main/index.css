@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Hanken Grotesk';
+    src: url('assets/fonts/HankenGrotesk-Medium.woff2') format('woff2'),
+    url('assets/fonts/HankenGrotesk-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hanken Grotesk';
+    src: url('assets/fonts/HankenGrotesk-Bold.woff2') format('woff2'),
+    url('assets/fonts/HankenGrotesk-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hanken Grotesk';
+    src: url('assets/fonts/HankenGrotesk-ExtraBold.woff2') format('woff2'),
+    url('assets/fonts/HankenGrotesk-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+*{
+    font-family: "Hanken Grotesk", serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 18px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 640px;
+    height: 512px;
+
+}
+.result-card{
+    color: hsl(241, 100%, 89%);
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    text-align: center;
+    width: 320px;
+    padding: 38px 54px;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: linear-gradient(360deg, hsla(241, 72%, 46%, 0), hsla(256, 72%, 46%, 1));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+}
+.circle-inner h1{
+    font-size: 50px;
+    color: #fff;
+}
+.circle-inner p{
+    font-size: 15px;
+    color: hsl(241, 100%, 89%);
+}
+.result-card__title{
+    font-size: 25px;
+    margin: 15px auto;
+    color: #fff;
+}
+.result-card__description{
+    font-size: 15px;
+}
+
+.summary-card{
+    padding: 38px;
+    width: 320px;
+    color: hsl(224, 30%, 27%);
+}
+.summary-item{
+    width: 100%;
+    font-size: 15px;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item-title{
+    display: flex;
+    align-items: center;
+}
+.marked{
+    font-family: "Hanken Grotesk", serif;
+    font-weight: bold;
+}
